@@ -27,6 +27,6 @@ aquila_get_theme_instance();
 
 function aquila_enqueue_scripts()
 {
-
+    // TODO
 }
 add_action('wp_enqueue_scripts', 'aquila_enqueue_scripts');
