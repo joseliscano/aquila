@@ -3,7 +3,7 @@
 /**
  * Header Navigation template.
  * 
- * @package Aquila
+ * @package aquila
  */
 
 $menu_class = AQUILA_THEME\Inc\Menus::get_instance();

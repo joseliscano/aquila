@@ -2,7 +2,7 @@
 /**
  * Autoloader file for theme.
  *
- * @package Aquila
+ * @package aquila
  */
 
 namespace AQUILA_THEME\Inc\Helpers;

@@ -22,7 +22,7 @@
  *
  * If you specifically need multiple objects, then use a normal class.
  *
- * @package Aquila
+ * @package aquila
  */
 
 namespace AQUILA_THEME\Inc\Traits;

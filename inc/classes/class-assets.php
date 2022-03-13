@@ -2,7 +2,7 @@
 /**
  * Enqueue theme assets
  * 
- * @package Aquila
+ * @package aquila
  */
 
 namespace AQUILA_THEME\Inc;

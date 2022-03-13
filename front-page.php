@@ -2,7 +2,7 @@
 /**
  * Front page template
  * 
- * @package Aquila
+ * @package aquila
  */
 
 get_header();

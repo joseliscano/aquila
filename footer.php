@@ -2,12 +2,11 @@
 /**
  * Footer template.
  * 
- * @package Aquila
+ * @package aquila
  */
 
  ?>
 
-<footer>Footer</footer>
 </div>
 </div>
 
