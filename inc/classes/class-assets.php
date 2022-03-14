@@ -46,7 +46,7 @@ class Assets {
     {
 
         // Register Scripts
-        wp_register_script('main-js', get_template_directory_uri() . '/assets/main.js', [], filemtime(get_template_directory() . '/assets/main.js'), true);
+        wp_register_script('main-js', get_template_directory_uri() . '/assets/main.js', ['jquery'], filemtime(get_template_directory() . '/assets/main.js'), true);
         wp_register_script('bootstrap-js', get_template_directory_uri() . '/assets/src/library/js/bootstrap.min.js', ['jquery'], false, true);
 
         // Enqueue Scripts
