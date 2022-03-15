@@ -1,0 +1,38 @@
+{
+  "name": "aquila",
+  "version": "1.0.0",
+  "description": "Aquila theme packages",
+  "main": "main.js",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production webpack --mode production --progress",
+    "dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
+    "clean": "rm -rf build/*"
+  },
+  "keywords": [
+    "wordpress",
+    "themes"
+  ],
+  "author": "Jose",
+  "license": "ISC",
+  "private": "true",
+  "browserlist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "cssnano": "^5.1.4",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "style-loader": "^3.3.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
