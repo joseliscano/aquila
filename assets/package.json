@@ -15,7 +15,7 @@
   "author": "Jose",
   "license": "ISC",
   "private": "true",
-  "browserlist": [
+  "browserslist": [
     "defaults"
   ],
   "devDependencies": {

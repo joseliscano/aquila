@@ -69,10 +69,12 @@ module.exports = (env, argv) => ({
                 cssProcessor: cssnano
             }),
             new UglyfyJsPlugin({
-                cahe: false,
-                parallel: true,
-                sourceMap: false,
-            })
+                uglifyOptions: {
+                    cahe: false,
+                    parallel: true,
+                    sourceMap: false,
+                }
+            }),
         ]
     },
     plugins: plugins(argv),
